@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Extension for network hardware assets authorization</description>
+        <device_type>browser</device_type>
+        <hint>Extension for network hardware assets authorization</hint>
+        <name/>
+        <order/>
+        <roles>x_1563697_nac_mab.capability_it_subject_matter_expert,x_1563697_nac_mab.hw_capability_owner</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-10 20:24:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ef7f82183b9d21098765a96feaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network access control</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Network access control" source="x_1563697_nac_mab">71e0bca58379d21098765a96feaad351</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Network access control">71e0bca58379d21098765a96feaad351</sys_scope>
+        <sys_update_name>sys_app_application_2ef7f82183b9d21098765a96feaad33a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-10 20:24:09</sys_updated_on>
+        <title>Network access control</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

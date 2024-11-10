@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f326782183b9d21098765a96feaad3d8" label="Network Adapter Definition" max_length="40" name="x_1563697_nac_mab_network_adapter_definition" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name prefix" mandatory="true" max_length="40" name="name_prefix" type="string"/>
+        <element label="Max count" mandatory="true" max_length="40" name="max_count" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Product catalog item" max_length="32" name="product_catalog_item" reference="pc_hardware_cat_item" reference_qual="nameSTARTSWITH^EQ" reference_qual_condition="nameSTARTSWITH^EQ" type="reference"/>
+        <element label="Min count" mandatory="true" max_length="40" name="min_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="eth" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ETH" value="eth"/>
+                <element inactive_on_update="false" label="WLAN" value="wlan"/>
+                <element inactive_on_update="false" label="USB" value="usb"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="MAC OUIs" max_length="255" name="mac_ouis" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="MAC prefixes" max_length="255" name="mac_prefixes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="product_catalog_item"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="product_catalog_item" label="Product catalog item" language="en" table="x_1563697_nac_mab_network_adapter_definition">
+    <sys_documentation element="hardware_model" label="Hardware Model" language="en" table="x_1563697_nac_mab_network_adapter_definition">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>product_catalog_item</element>
+            <element>hardware_model</element>
             <help/>
             <hint/>
-            <label>Product catalog item</label>
+            <label>Hardware Model</label>
             <language>en</language>
             <name>x_1563697_nac_mab_network_adapter_definition</name>
-            <plural>Product catalog items</plural>
+            <plural>Hardware Models</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-10 20:31:12</sys_created_on>
+            <sys_created_on>2024-11-10 21:51:16</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Product catalog item</sys_name>
+            <sys_name>Hardware Model</sys_name>
             <sys_package display_value="Network access control" source="x_1563697_nac_mab">71e0bca58379d21098765a96feaad351</sys_package>
             <sys_policy/>
             <sys_scope display_value="Network access control">71e0bca58379d21098765a96feaad351</sys_scope>
-            <sys_update_name>sys_documentation_x_1563697_nac_mab_network_adapter_definition_product_catalog_item_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1563697_nac_mab_network_adapter_definition_hardware_model_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-10 20:31:12</sys_updated_on>
+            <sys_updated_on>2024-11-10 21:51:16</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

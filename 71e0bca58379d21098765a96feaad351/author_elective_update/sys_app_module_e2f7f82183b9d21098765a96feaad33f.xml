@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Network access control">2ef7f82183b9d21098765a96feaad33a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Network adapter definition</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-10 20:24:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e2f7f82183b9d21098765a96feaad33f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Network Adapter Definition</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Network access control" source="x_1563697_nac_mab">71e0bca58379d21098765a96feaad351</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Network access control">71e0bca58379d21098765a96feaad351</sys_scope>
+        <sys_update_name>sys_app_module_e2f7f82183b9d21098765a96feaad33f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-10 20:34:31</sys_updated_on>
+        <timeline_page/>
+        <title>Network Adapter Definition</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Network access control">71e0bca58379d21098765a96feaad351</application>
+        <file_path/>
+        <instance_id>ce0f7805db8ab950caf99027c5961918</instance_id>
+        <instance_name>dev191606</instance_name>
+        <name>sys_app_module_e2f7f82183b9d21098765a96feaad33f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Network access control">2ef7f82183b9d21098765a96feaad33a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Network adapter definition</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-10 20:24:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e2f7f82183b9d21098765a96feaad33f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Network Adapter Definition</sys_name><sys_overrides/><sys_package display_value="Network access control" source="x_1563697_nac_mab">71e0bca58379d21098765a96feaad351</sys_package><sys_policy/><sys_scope display_value="Network access control">71e0bca58379d21098765a96feaad351</sys_scope><sys_update_name>sys_app_module_e2f7f82183b9d21098765a96feaad33f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-10 20:34:31</sys_updated_on><timeline_page/><title>Network Adapter Definition</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1296623975</payload_hash>
+        <record_name>Network Adapter Definition</record_name>
+        <reverted_from/>
+        <source>7de0bca58379d21098765a96feaad355</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-10 20:34:31</sys_created_on>
+        <sys_id>de5af82583b9d21098765a96feaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19317c90bab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-10 20:34:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>965af82595b9d210f8a2be3e31566e7c</update_guid>
+        <update_guid_history>965af82595b9d210f8a2be3e31566e7c:1296623975,2ef7f82115b9d210cddd609578339241:1682153831</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Network Adapter Definition">9816d165833dd21098765a96feaad345</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-10 22:35:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>7b3771019a564efc929692e4ef6a1b90</sys_id>
+        <sys_metadata>e2f7f82183b9d21098765a96feaad33f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Adapter Definition</sys_name>
+        <sys_package display_value="Network access control" source="x_1563697_nac_mab">71e0bca58379d21098765a96feaad351</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Network access control">71e0bca58379d21098765a96feaad351</sys_scope>
+        <sys_scope_delete display_value="">0ef3dc612cd84653980255479d5d5e69</sys_scope_delete>
+        <sys_update_name>sys_app_module_e2f7f82183b9d21098765a96feaad33f</sys_update_name>
+        <sys_update_version display_value="sys_app_module_e2f7f82183b9d21098765a96feaad33f">de5af82583b9d21098765a96feaad37c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-10 22:35:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

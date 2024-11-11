@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="product_catalog_item" table="x_1563697_nac_mab_network_adapter_definition">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="hardware_model" table="x_1563697_nac_mab_network_adapter_definition">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Product catalog item</column_label>
+        <column_label>Hardware Model</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>product_catalog_item</element>
+        <element>hardware_model</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -40,27 +40,25 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="pc_hardware_cat_item">pc_hardware_cat_item</reference>
+        <reference display_value="" name="cmdb_hardware_product_model">cmdb_hardware_product_model</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>nameSTARTSWITH^EQ</reference_qual>
-        <reference_qual_condition table="pc_hardware_cat_item">nameSTARTSWITH^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-10 20:31:12</sys_created_on>
-        <sys_name>Product catalog item</sys_name>
+        <sys_created_on>2024-11-10 21:51:16</sys_created_on>
+        <sys_name>Hardware Model</sys_name>
         <sys_package display_value="Network access control" source="x_1563697_nac_mab">71e0bca58379d21098765a96feaad351</sys_package>
         <sys_policy/>
         <sys_scope display_value="Network access control">71e0bca58379d21098765a96feaad351</sys_scope>
-        <sys_update_name>sys_dictionary_x_1563697_nac_mab_network_adapter_definition_product_catalog_item</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1563697_nac_mab_network_adapter_definition_hardware_model</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-10 20:31:12</sys_updated_on>
+        <sys_updated_on>2024-11-10 21:51:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
